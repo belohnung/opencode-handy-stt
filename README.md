@@ -31,12 +31,10 @@ The plugin assumes Handy is running at `http://localhost:9876`. If you need a di
 Installation
 ------------
 
-**Via npm (recommended):**
+Add to your OpenCode config file (e.g., `~/.config/opencode/config.toml`):
 
+```toml
+plugins = ["opencode-stt@latest"]
 ```
-npm install opencode-stt
-```
 
-**Manual:**
-
-Install via OpenCode's plugin system or add it manually to your plugins directory.
+Or install manually to your plugins directory.
