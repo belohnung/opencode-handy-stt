@@ -1,0 +1,13 @@
+{
+  "name": "opencode-stt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "*"
+  }
+}
